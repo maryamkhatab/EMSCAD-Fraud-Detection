@@ -6,7 +6,7 @@ This project investigates the detection of fraudulent online job postings using 
 
 ## Dataset
 
-The dataset contains legitimate and fraudulent job advertisements with textual and structured attributes.
+The project uses the Employment Scam Aegean Dataset (EMSCAD), containing 17,645 online job postings classified as legitimate or fraudulent.
 
 ## Methodology
 
