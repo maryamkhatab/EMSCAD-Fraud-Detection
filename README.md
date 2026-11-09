@@ -2,27 +2,28 @@
 
 ## Project Overview
 
-This project investigates the detection of fraudulent online job postings using machine learning and the Employment Scam Aegean Dataset (EMSCAD).
+This project investigates the detection of fraudulent online job postings using machine learning techniques and the Employment Scam Aegean Dataset (EMSCAD).
 
 ## Dataset
 
-The project uses the Employment Scam Aegean Dataset (EMSCAD), containing 17,645 online job postings classified as legitimate or fraudulent.
+The project uses EMSCAD, containing 17,645 job postings after duplicate removal. Each posting is classified as legitimate or fraudulent.
 
 ## Methodology
 
-1. Data preprocessing
-2. Duplicate removal
-3. Text cleaning and lemmatization
-4. TF-IDF feature extraction
-5. One-hot encoding
+1. Dataset inspection and duplicate removal
+2. Text cleaning and lemmatization
+3. TF-IDF feature extraction
+4. One-hot encoding of categorical features
+5. Binary feature processing and missing-value indicators
 6. Hybrid feature construction
-7. SMOTE for class imbalance
+7. SMOTE for handling class imbalance
 8. Model training and evaluation
-9. Stacking ensemble
-10. SHAP explainability
+9. Out-of-fold stacking ensemble
+10. SHAP-based model explainability
 
 ## Machine Learning Models
 
+- Multinomial Naive Bayes
 - Logistic Regression
 - Random Forest
 - Linear SVM
@@ -49,4 +50,4 @@ Python, Jupyter Notebook, Pandas, NumPy, Scikit-learn, NLTK, Imbalanced-learn, X
 
 ## Project Status
 
-Experimental implementation and model evaluation completed.
+The experimental implementation, model training, evaluation, and explainability analysis have been completed.
